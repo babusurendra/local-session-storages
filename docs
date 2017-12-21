@@ -1,0 +1,7 @@
+Local Storage : within multiple tabs , it works even if we close and reopen browser -- cookie
+session storage : withing same tab not works in other tab of same browser instance -- session
+
+
+localStorage.setItem("key":"value");,.clear() - clears everything , getItem("key") , .length-- lenght of keys in storage.key(index)..
+ , removeItem("key")
+sessionStorage.setItem("key":"value");
